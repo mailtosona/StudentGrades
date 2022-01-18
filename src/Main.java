@@ -7,7 +7,6 @@ public class Main {
     Group group = new Group();
     group.setGroup(3);
 
-
     Student student = new Student("Maya",grade,group,"Pappu");
     System.out.println("----------------"+student.getStudentname());
 }

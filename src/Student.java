@@ -66,15 +66,17 @@ public class Student implements StudentInterface {
     }
 
     @Override
-    public char downGrage(Student student) {
+    public char downGrade(Student student) {
         char grade = student.getGrade().getGrade();
         return (char) (grade+1);
     }
 
     @Override
     public int updateGroup(Student student) {
-        return 0;
+        int group = student.getgroup().getgroup();
+        return (char) (group+1);
     }
+
 }
 
 
